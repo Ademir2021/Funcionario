@@ -15,6 +15,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "express": "^5.2.1",
     "firebase": "^12.9.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
@@ -47,13 +48,10 @@
     ]
   },
   "engines": {
-  "node": "20.x"
-},
-
+    "node": "18.x"
+  },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
   "license": "ISC"
 }
-
-

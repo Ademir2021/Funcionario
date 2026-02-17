@@ -12,10 +12,12 @@ Inicie o Git (se ainda não fez):
 `git commit -m "Preparando para deploy"`
 Crie a aplicação no Heroku:
 `heroku create nome-da-sua-app` (O nome deve ser único).
+Conecte em uma aplicação já existente:
+`heroku git:remote -a nome-do-app`
 Faça o deploy:
 `git push heroku main` (ou master).
 Abra a aplicação:
-`heroku open` 
+`heroku open`
 Dicas Importantes:
 Logs: Se der erro, use heroku logs --tail para depurar.
 Variáveis de Ambiente: Configure configs sensíveis com heroku config:set CHAVE=valor.
