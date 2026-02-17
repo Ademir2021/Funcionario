@@ -19,3 +19,8 @@ Abra a aplicação:
 Dicas Importantes:
 Logs: Se der erro, use heroku logs --tail para depurar.
 Variáveis de Ambiente: Configure configs sensíveis com heroku config:set CHAVE=valor.
+
+
+  "engines": {
+  "node": "18.x"
+},
