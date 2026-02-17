@@ -11,8 +11,9 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "env": "^0.0.2",
     "express": "^5.2.1",
-     "firebase": "^12.9.0"
+    "firebase": "^12.9.0"
   },
   "author": "",
   "license": "ISC"
