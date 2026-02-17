@@ -2,6 +2,10 @@
   "name": "funcionario",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "node": "18.x",
+   "npm": "9.x"
+},
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -22,10 +26,6 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
-  },
-    "engines": {
-    "node": "18.x",
-     "npm": "9.x"
   },
   "scripts": {
     "start": "node index.js",
